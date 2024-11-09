@@ -100,7 +100,4 @@ This module provides a Wake-on-LAN (WOL) command to remotely power on machines i
 
 Feel free to open issues and submit pull requests to enhance functionality or suggest new features!
 
----
 
-Thank you for using the GHBot WOL module!
-```
