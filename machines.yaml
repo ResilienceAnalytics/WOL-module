@@ -1,0 +1,25 @@
+machines:
+  # Each machine entry includes:
+  # - mac: MAC address for Wake-on-LAN packets
+  # - ip: (optional) IP address for network-related functionality
+  # - description: (optional) Brief description of the machine
+  # - location: (optional) Location or department name
+  
+  serveur-dev:
+    mac: "00:1A:2B:3C:4D:5E"  # MAC address for Wake-on-LAN
+    ip: "192.168.1.100"       # IP address if required for additional tasks
+    description: "Development server"  # Short description of the machine
+    location: "Server Room"            # Location within the building
+    
+  imprimante-3D:
+    mac: "11:22:33:44:55:66"
+    ip: "192.168.1.101"
+    description: "3D printer for prototyping"
+    location: "Workshop"
+
+  # Example additional machine with all fields
+  poste-bureau:
+    mac: "AA:BB:CC:DD:EE:FF"
+    ip: "192.168.1.102"
+    description: "Office workstation"
+    location: "Office - 2nd Floor"
