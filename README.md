@@ -14,7 +14,7 @@ This module provides a Wake-on-LAN (WOL) command to remotely power on machines i
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/ResilienceAnalytics/WOL-module.git
-   cd YourRepo
+   cd WOL-module
    ```
 
 2. **Dependencies**
